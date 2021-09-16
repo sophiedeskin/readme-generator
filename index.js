@@ -36,7 +36,8 @@ const generateMarkdown = require('./utils/generateMarkdown.js');
             "Apache",
             "ISC",
             "MIT",
-            "OBSD"
+            "OBSD",
+            "None"
         ]
     },
     {

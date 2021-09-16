@@ -1,10 +1,10 @@
 
  
 ## Title 
-Hello World!
+ :wave: Readme Generator :wave:
 
 ## Description
-say hello to everyone
+Generating a readme based on user criteria
 
 ## Table of Contents
 - [Installation](#installation)
@@ -19,13 +19,13 @@ say hello to everyone
 Here is the installation process: none
 
 ## Use
-saying hello to the world
+Making a custom readme file
 
 ## License
-The license covering this project: ISC![licenseBadge]
+The license covering this project: Apache![licenseBadge]
 
 ## Contributors
-sophie is/are contributing to the project
+:family: Sophie is/are contributing to the project
 
 ## Testing
 no testing included
@@ -34,5 +34,5 @@ no testing included
 What to do if you have an issue: call for help
 
 ## AdditionalInfo
-- Github: (https://github.com/sophiedeskin)
-- Email: sophiedeskin@gmail.com
+- Github: (https://github.com/sophiedeskin) :office:
+- Email: sophiedeskin@gmail.com :envelope:

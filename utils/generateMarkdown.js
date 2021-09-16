@@ -16,11 +16,11 @@ function renderLicenseLink(license) {}
 function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
+function generateMarkdown(data) { 
   return `
  
 ## Title 
-${data.projectTitle}
+ :wave: ${data.projectTitle} :wave:
 
 ## Description
 ${data.description}
@@ -44,7 +44,7 @@ ${data.use}
 The license covering this project: ${data.license}![licenseBadge]
 
 ## Contributors
-${data.contributing} is/are contributing to the project
+:family: ${data.contributing} is/are contributing to the project
 
 ## Testing
 ${data.tests} testing included
@@ -53,8 +53,8 @@ ${data.tests} testing included
 What to do if you have an issue: ${data.questions}
 
 ## AdditionalInfo
-- Github: (https://github.com/${data.username})
-- Email: ${data.email}
+- Github: (https://github.com/${data.username}) :office:
+- Email: ${data.email} :envelope:
 `;
 }
 
