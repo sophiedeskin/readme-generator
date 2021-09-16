@@ -2,10 +2,12 @@ console.clear();
 // TODO: Include packages needed for this application
 const fs = require("fs");
 const inquirer = require("inquirer");
-const utils = require("utils");
-const generateMarkdown = require('./utils./generateMarkdown');
+const generateMarkdown = require('./utils/generateMarkdown.js');
 // TODO: Create an array of questions for user input
-const questions = [
+
+
+      const questions = 
+      [
     {
         name: "projectTitle",
         type: "input",
@@ -17,7 +19,7 @@ const questions = [
         message: "Write a brief description of your project: "
     },
     {
-        name: "installProcess",
+        name: "installation",
         type: "input",
         message: "Describe the installation process if any: ",
     },
@@ -62,7 +64,8 @@ const questions = [
         type: "input",
         message: "Please enter your email: "
     }
-];
+]
+;
 
 
 // TODO: Create a function to write README file
