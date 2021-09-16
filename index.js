@@ -26,7 +26,7 @@ const generateMarkdown = require('./utils/generateMarkdown.js');
     {
         name: "use",
         type: "input",
-        message: "What is this project usage for?"
+        message: "What is this project used for?"
     },
     {
         name: "license",
@@ -76,7 +76,7 @@ function writeToFile(fileName, data) {
         if (err) {
             return console.log(err)
         } else {
-            console.log("Successful")
+            console.log("Successfully created ReadMe!")
         }
     }  )
 }
@@ -85,7 +85,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions)
         .then(function(data) {
-            writeToFile("README.md", generateMarkdown(data));
+            writeToFile("READMEgenerator.md", generateMarkdown(data));
             console.log(data)
 
         })
