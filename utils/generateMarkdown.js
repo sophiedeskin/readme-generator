@@ -1,9 +1,20 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  if (`${data.license}` === "Apache"){
-    return `![licenseBadge](https://img.shields.io/badge/license-${data.license}-red.svg)`
-
+  if (license === "Apache"){
+    return `![licenseBadge](https://img.shields.io/badge/license-${license}-red.svg)`
+  }
+  else if (license === "ISC") {
+    return `![licenseBadge](https://img.shields.io/badge/license-${license}-green.svg)`
+  }
+  else if (license === "MIT") {
+    return `![licenseBadge](https://img.shields.io/badge/license-${license}-orange.svg)`
+  }
+  else if (license === "OBSD") {
+    return `![licenseBadge](https://img.shields.io/badge/license-${license}-yellow.svg)`
+  }
+  else {
+    return ""
   }
 }
 
@@ -18,6 +29,7 @@ function renderLicenseSection(license) {}
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) { 
   return `
+  ${renderLicenseBadge(data.license)}  
  
 ## :wave: ${data.projectTitle} :wave:
 
@@ -29,9 +41,9 @@ ${data.description}
 - [Use](#use)
 - [License](#license)
 - [Contributors](#contributors)
-- [Testing](#tests)
-- [Questions](#questions)
-- [additionalInfo](#AdditionalInfo)
+- [Testing](#Testing)
+- [Questions](#Questions)
+- [AdditionalInfo](#AdditionalInfo)
 
 ## Installation
 Here is the installation process: ${data.installation}
@@ -40,8 +52,9 @@ Here is the installation process: ${data.installation}
 ${data.use}
 
 ## License
-The license covering this project: ${data.license} ![licenseBadge]
-
+The license covering this project: 
+${data.license}
+${renderLicenseBadge(data.license)}
 ## Contributors
 :family: ${data.contributing} is/are contributing to the project
 
