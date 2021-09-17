@@ -1,30 +1,27 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
+  //if user chose apache return a red badge
   if (license === "Apache"){
     return `![licenseBadge](https://img.shields.io/badge/license-${license}-red.svg)`
   }
+  //if user chose ISC return green badge
   else if (license === "ISC") {
     return `![licenseBadge](https://img.shields.io/badge/license-${license}-green.svg)`
   }
+    //if user chose MIT return orange badge
   else if (license === "MIT") {
     return `![licenseBadge](https://img.shields.io/badge/license-${license}-orange.svg)`
   }
+    //if user chose OBSD return yellow badge
   else if (license === "OBSD") {
     return `![licenseBadge](https://img.shields.io/badge/license-${license}-yellow.svg)`
   }
+  //if user selected none return an empty string
   else {
     return ""
   }
 }
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) { 

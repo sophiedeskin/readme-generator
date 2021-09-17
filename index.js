@@ -71,6 +71,7 @@ const generateMarkdown = require('./utils/generateMarkdown.js');
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
+    //create a new file
     fs.writeFile(fileName, data, function(err) {
         console.log(fileName)
         console.log(data)
@@ -84,8 +85,10 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
+    //pass in questions through inquirer
     inquirer.prompt(questions)
         .then(function(data) {
+            //designate the new file as a readme and pass in generate markdown data
             writeToFile("READMEgenerator.md", generateMarkdown(data));
             console.log(data)
 
