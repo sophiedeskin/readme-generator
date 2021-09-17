@@ -1,10 +1,9 @@
 
  
-## Title 
- :wave: Readme Generator :wave:
+## :wave: asdfsda :wave:
 
 ## Description
-Generating a readme based on user criteria
+asdfds
 
 ## Table of Contents
 - [Installation](#installation)
@@ -16,23 +15,23 @@ Generating a readme based on user criteria
 - [additionalInfo](#AdditionalInfo)
 
 ## Installation
-Here is the installation process: none
+Here is the installation process: asdfsd
 
 ## Use
-Making a custom readme file
+asdfsda
 
 ## License
-The license covering this project: Apache![licenseBadge]
+The license covering this project: Apache ![licenseBadge]
 
 ## Contributors
-:family: Sophie is/are contributing to the project
+:family: asdf is/are contributing to the project
 
 ## Testing
-no testing included
+asdf testing included
 
 ## Questions
-What to do if you have an issue: call for help
+What to do if you have an issue: asdf
 
 ## AdditionalInfo
-- Github: (https://github.com/sophiedeskin) :office:
-- Email: sophiedeskin@gmail.com :envelope:
+- Github: (https://github.com/asdfds) :office:
+- Email: asdfd :envelope:

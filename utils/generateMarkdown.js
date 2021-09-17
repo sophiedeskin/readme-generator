@@ -2,7 +2,7 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (`${data.license}` === "Apache"){
-    // ![licenseBadge](https://img.shields.io/badge/Apache-License-red)
+    return `![licenseBadge](https://img.shields.io/badge/license-${data.license}-red.svg)`
 
   }
 }
@@ -19,8 +19,7 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) { 
   return `
  
-## Title 
- :wave: ${data.projectTitle} :wave:
+## :wave: ${data.projectTitle} :wave:
 
 ## Description
 ${data.description}
@@ -41,7 +40,7 @@ Here is the installation process: ${data.installation}
 ${data.use}
 
 ## License
-The license covering this project: ${data.license}![licenseBadge]
+The license covering this project: ${data.license} ![licenseBadge]
 
 ## Contributors
 :family: ${data.contributing} is/are contributing to the project
