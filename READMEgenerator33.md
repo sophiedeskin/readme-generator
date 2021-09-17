@@ -1,10 +1,10 @@
 
-  ![licenseBadge](https://img.shields.io/badge/license-MIT-orange.svg)  
+  ![licenseBadge](https://img.shields.io/badge/license-ISC-green.svg)  
  
 ## :wave: ReadMe Generator :wave:
 
 ## Description
-Creating a custom ReadMe file based on user input
+Building custom ReadMe files based on user input
 
 ## Table of Contents
 - [Installation](#installation)
@@ -19,12 +19,12 @@ Creating a custom ReadMe file based on user input
 Here is the installation process: none
 
 ## Use
-Building custom ReadMe's
+Creating custom ReadMe files
 
 ## License
 The license covering this project: 
-MIT
-![licenseBadge](https://img.shields.io/badge/license-MIT-orange.svg)
+ISC
+![licenseBadge](https://img.shields.io/badge/license-ISC-green.svg)
 ## Contributors
 :family: Sophie is/are contributing to the project
 
@@ -32,7 +32,7 @@ MIT
 no testing included
 
 ## Questions
-What to do if you have an issue: Use the contact info in additional info
+What to do if you have an issue: use the contact info in additional info
 
 ## AdditionalInfo
 - Github: (https://github.com/sophiedeskin) :office:
