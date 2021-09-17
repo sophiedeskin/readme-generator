@@ -1,6 +1,6 @@
 # 09 Node.js Homework: Professional README Generator
 
-Video of terminal work: https://drive.google.com/file/d/1CDZPDTam4YXb__WZaTfLjTcwtw3cBsGP/view
+Video of terminal work: https://drive.google.com/file/d/1CDZPDTam4YXb__WZaTfLjTcwtw3cBsGP/preview
 
 ## Your Task
 
